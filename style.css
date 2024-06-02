@@ -1,0 +1,54 @@
+ body{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(rgb(226, 17, 226),rgb(74,102,241));
+ }
+
+ .Calender{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 4px 7px 5px;
+ }
+
+#left , #right{
+    
+    height: 30vh;
+    width: 10vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+ }
+ #left{
+    background-color: deeppink;
+ }
+ #right{
+    background-color: goldenrod;
+ }
+
+ #date{
+    font-size: 90px;
+    font-weight: 600;
+
+ }
+ #day,#year{
+    font-size: 28px;
+ }
+ #Month{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 10px;
+
+ }
+
